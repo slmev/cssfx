@@ -4,17 +4,12 @@
   box-sizing: border-box;
 }
 
-html,
-body {
+html {
   background-color: hsl(243, 60%, 8%);
   color: white;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
-  min-height: 100vh;
-}
-
-body.inspecting {
-  overflow: hidden;
+  overflow-x: auto;
 }
 
 /* syntax highlighting */

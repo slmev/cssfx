@@ -12,7 +12,7 @@ button {
   padding: 0.5em 1em;
   outline: none;
   border: none;
-  background-color: hsl(246, 41%, 21%);
+  background-color: hsl(236, 32%, 26%);
   overflow: hidden;
   transition: color 0.4s ease-in-out;
 }
@@ -28,7 +28,7 @@ button::before {
   border-radius: 50%;
   background-color: #3cefff;
   transform-origin: center;
-  transform: translate(-50%, 50%) scale(0);
+  transform: translate3d(-50%, 50%, 0) scale3d(0, 0, 0);
   transition: transform 0.45s ease-in-out;
 }
 
@@ -38,6 +38,6 @@ button:hover {
 }
 
 button:hover::before {
-  transform: translate(-50%, 50%) scale(15);
+  transform: translate3d(-50%, 50%, 0) scale3d(15, 15, 15);
 }
 </style>

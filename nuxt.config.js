@@ -31,10 +31,10 @@ export default {
       },
       { property: 'og:type', content: 'website' },
       { property: 'og:url', content: 'https://cssfx.dev' },
-      { property: 'og:image', content: 'http://cssfx.dev/static/logo.png' },
+      { property: 'og:image', content: 'http://cssfx.dev/logo.png' },
       {
         property: 'og:image:secure_url',
-        content: 'https://cssfx.dev/static/logo.png'
+        content: 'https://cssfx.dev/logo.png'
       },
       { property: 'og:image:alt', content: 'cssfx logo' },
       { property: 'og:image:width', content: '1000' },
@@ -46,7 +46,7 @@ export default {
     link: [
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Nunito:400,700|Roboto+Mono'
+        href: 'https://fonts.googleapis.com/css?family=Poppins:300,400,600|Roboto+Mono'
       },
       {
         rel: 'apple-touch-icon',
